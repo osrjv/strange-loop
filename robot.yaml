@@ -1,0 +1,12 @@
+tasks:
+  Default:
+    command: [rcc, run]
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
